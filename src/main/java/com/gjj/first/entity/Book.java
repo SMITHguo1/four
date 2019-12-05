@@ -10,12 +10,10 @@ import java.util.Date;
 
 public class Book
 {
-    //第五次修改了
+
     private String name;
     private String author;
-    @JsonIgnore
-    private Float price;
-    @JsonFormat(pattern = "yyyy-MM-dd")
+    protected Float price;
     private Date publicationDate;
 
     public String getName() {
